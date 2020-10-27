@@ -60,7 +60,7 @@ Ejemplo:
 using namespace std;
 
 int main() {
-	string nombreCompleto1 = "";
+    string nombreCompleto1 = "";
     string nombreCompleto2 = "";
 
     cout << "Ingrese su nombre y apellido\n";
