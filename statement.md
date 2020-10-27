@@ -1,4 +1,6 @@
-# Welcome!
+# Entrada y salida de datos para aplicaciones de consola en C++
+
+## reuqisitos
 
 This C template lets you get started quickly with a simple one-page playground.
 
