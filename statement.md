@@ -1,7 +1,7 @@
 # Entrada y salida de datos para aplicaciones de consola en C++
 
-Generalmente, las aplicaciones de software están diseñadas oara que puedan interactuar de forma directa con usuarios. Por ejemplo, las aplicaciones web le permiten a un usuario agregar datos en campos y luego enviar esa información al presionar un botón.
-En el caso de las aplicaciones de consola desarrolladas con C++, solo hay dos tipos de interacción entre la aplicación y el usuario, mediante mensajes que la aplicación imprime en pantalla para que el usuario los lea y a través de información ingresada por el ususario usando el teclado de la computadora.
+Generalmente, las aplicaciones de software están diseñadas para que puedan interactuar de forma directa con usuarios. Por ejemplo, las aplicaciones web le permiten a un usuario agregar datos en campos y luego enviar esa información al presionar un botón.
+En el caso de las aplicaciones de consola desarrolladas con C++, solo hay dos tipos de interacción directa entre la aplicación y el usuario: 1. Mediante mensajes que la aplicación imprime en pantalla para que el usuario los lea y 2. a través de información ingresada por el ususario a la aplicación usando el teclado de la computadora.
 
 ## 
 
