@@ -30,7 +30,7 @@ using namespace std;  //Inclusion del espacio de nombres std
 
 ## Salida estándar en C++
 
-Para poder imprimir datos en la pantalla C++ ofrece la función `cout` junto con el operador `<<`. `cout` permite imprimir cadenas de texto y valores almacenados en variables.
+Para poder imprimir datos en la pantalla C++ ofrece la función `cout` junto con el operador `<<`. La función `cout` permite imprimir cadenas de texto y valores almacenados en variables.
 
 Ejemplo:
 
@@ -43,7 +43,7 @@ int main() {
 	string curso = "Informatica";
     unsigned int version = 2;
 
-    cout << "Bienvenidos al curso de " << curso << version;
+    cout << "Bienvenidos al curso de " << curso << " " << version;
 }
 
 ```
