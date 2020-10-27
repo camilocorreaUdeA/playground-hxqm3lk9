@@ -21,7 +21,7 @@ Para poder utilizar las funciones que controlan la entrada y salida estándar en
 
 Observe a continuación la sintaxis necesaria para incluir la librería iostream y el espacio de nombres std:
 
-```Cpp
+```cpp
 #include<iostream>   //Inclusion de la libreria iostream
 
 using namespace std;  //Inclusion del espacio de nombres std
@@ -34,7 +34,7 @@ Para poder imprimir datos en la pantalla C++ ofrece la función `cout` junto con
 
 Ejemplo:
 
-```Cpp runnable
+```cpp runnable
 #include <iostream>
 
 using namespace std;
