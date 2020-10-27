@@ -16,11 +16,11 @@ Para poder utilizar correctamente las funciones que permiten controlar la entrad
 Para poder utilizar las funciones que controlan la entrada y salida estándar en C++ es necesario:
 <ol>
 <li>Incluir la librería para flujos de entrada y salida de datos en C++: <b><i>iostream</i></b></li>
-<li>Incluir el espacio de nombres de la librería estándar de C++: <b><i>iostream</i></b></li>
+<li>Incluir el espacio de nombres de la librería estándar de C++: <b><i>std</i></b></li>
 </ol>
 
 ```Cpp
-#include <iostream>   //Inclusion de la libreria iostream
+#include<iostream>   //Inclusion de la libreria iostream
 
 using namespace std;  //Inclusion del espacio de nombres std
 
