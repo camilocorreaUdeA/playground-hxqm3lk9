@@ -54,7 +54,7 @@ Para poder capturar datos ingresados por teclado y almacenarlos en variables C++
 
 Ejemplo:
 
-```C++ runnable
+```C++
 #include <iostream>
 
 using namespace std;
