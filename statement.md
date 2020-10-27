@@ -60,10 +60,17 @@ Ejemplo:
 using namespace std;
 
 int main() {
-	string curso = "Informatica";
-    unsigned int version = 2;
+	string nombreCompleto1 = "";
+    string nombreCompleto2 = "";
 
-    cout << "Bienvenidos al curso de " << curso << " " << version;
+    cout << "Ingrese su nombre y apellido\n";
+    cin >> nombreCompleto1;
+    cout << "Ingrese de nuevo su nombre y apellido\n";
+    getline(cin, nombreCompleto2);
+    
+
+    cout << "Datos ingresados con cin: " << nombreCompleto1 << "\n";
+    cout << "Datos ingresados con getline: " << nombreCompleto2 << "\n";
 }
 
 ```
