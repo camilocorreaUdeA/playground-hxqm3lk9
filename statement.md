@@ -48,6 +48,26 @@ int main() {
 
 ```
 
+## Entrada estándar en C++
+
+Para poder capturar datos ingresados por teclado y almacenarlos en variables C++ ofrece la función `cin` junto con el operador `>>`, y la función`getline`. La función `cin` permite capturar cualquier tipo de datos, con excepción de cadenas de texto que contengan espacios. Mientras que `getline` si permite la captura de textos con espacios.
+
+Ejemplo:
+
+```C++ runnable
+#include <iostream>
+
+using namespace std;
+
+int main() {
+	string curso = "Informatica";
+    unsigned int version = 2;
+
+    cout << "Bienvenidos al curso de " << curso << " " << version;
+}
+
+```
+
 # Advanced usage
 
 If you want a more complex example (external libraries, viewers...), see the [official documentation](https://tech.io/playgrounds/408/tech-io-documentation).
