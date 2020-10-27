@@ -30,15 +30,20 @@ using namespace std;  //Inclusion del espacio de nombres std
 
 ## Salida estándar en C++
 
-Para poder imprimir datos en la pantalla C++ ofrece la función `cout` junto con el operador `<<`
+Para poder imprimir datos en la pantalla C++ ofrece la función `cout` junto con el operador `<<`. `cout` permite imprimir cadenas de texto y valores almacenados en variables.
 
-This C template lets you get started quickly with a simple one-page playground.
+Ejemplo:
 
-```C runnable
-#include <stdio.h>
+```Cpp runnable
+#include <iostream>
+
+using namespace std;
 
 int main() {
-	printf("Hello World!");
+	string curso = "Informatica";
+    unsigned int version = 2;
+
+    cout << "Bienvenidos al curso de " << curso << version;
 }
 
 ```
