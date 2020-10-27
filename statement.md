@@ -19,12 +19,18 @@ Para poder utilizar las funciones que controlan la entrada y salida estándar en
 <li>Incluir el espacio de nombres de la librería estándar de C++: <b><i>std</i></b></li>
 </ol>
 
+Observe a continuación la sintaxis necesaria para incluir la librería iostream y el espacio de nombres std:
+
 ```Cpp
 #include<iostream>   //Inclusion de la libreria iostream
 
 using namespace std;  //Inclusion del espacio de nombres std
 
 ```
+
+## Salida estándar en C++
+
+Para poder imprimir datos en la pantalla C++ ofrece la función `cout` junto con el operador `<<`
 
 This C template lets you get started quickly with a simple one-page playground.
 
