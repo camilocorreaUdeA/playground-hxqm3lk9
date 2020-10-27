@@ -11,7 +11,20 @@ En esta lección veremos las funciones de uso más extendido que ofrece C++ para
 Al ingreso de datos por teclado y la impresión de información en pantalla se le conoce como entrada y salida estándar respectivamente en el argot del desarrollo de aplicaciones de consola en C++.
 Para poder utilizar correctamente las funciones que permiten controlar la entrada y salida estándar en C++ es necesario agregar un par de líneas de código como requisito indispensable.
 
-## 
+## Requisitos
+
+Para poder utilizar las funciones que controlan la entrada y salida estándar en C++ es necesario:
+<ol>
+<li>Incluir la librería para flujos de entrada y salida de datos en C++: <b><i>iostream</i></b></li>
+<li>Incluir el espacio de nombres de la librería estándar de C++: <b><i>iostream</i></b></li>
+</ol>
+
+```Cpp
+#include <iostream>   //Inclusion de la libreria iostream
+
+using namespace std;  //Inclusion del espacio de nombres std
+
+```
 
 This C template lets you get started quickly with a simple one-page playground.
 
